@@ -28,3 +28,8 @@ No other account types are analyzed.
 - Orange icon courtesy of: [Flat Icon Repository](http://www.flaticon.com/search?word=orange)
 - Jquery
 - [DataTables.Net](https://datatables.net)
+
+# how to use
+You can get this chrome extension from the chrome store [search: tangerine bank chrome store] or you can download all this source and load an as an unpacked extension in chrome. Goto chrome://extensions to turn on developer mode to load unpacked extension.
+
+Change the name of your accounts to honour the format described above. Whenever you goto accounts page, you will be presented with a more useful accounts page.
