@@ -1,5 +1,5 @@
 # tangerine
-Chrome extension to properly allow looking at Tangerine bank accounts; requires special naming convention for accounts.
+Chrome extension to allow looking at Tangerine bank accounts with useful information; requires special naming convention for accounts to encode RSP GIC or GIC, re-enroll or not, maturity date, current rate. See examples below for more details.
 
 RSP GIC accounts must be named as follows:
 - RG[ZQQ]YYYYMMDD XXX
@@ -12,6 +12,14 @@ RSP GIC accounts must be named as follows:
      
 GIC is the same as above except it doesn't start with R
 - G[ZQQ]YYYYMMDD XXX
+
+Examples:
+- RGZ2020210121 150
+
+   RSP GIC with re-enroll every 2.0 years. Matures 2021-Jan-21. Current rate: 1.5%
+- RG20190228 155
+
+   RSP GIC without re-enroll. Matures 2019-Feb-28. Current rate: 1.55%
 
      
 No other account types are analyzed.
