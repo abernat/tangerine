@@ -4,7 +4,7 @@ Chrome extension to properly allow looking at Tangerine bank accounts; requires 
 RSP GIC accounts must be named as follows:
 - RG[ZQQ]YYYYMMDD XX
 - WHERE:
-    - [ZQQ] is optional. It indicates an automatic re-enrollment every QQ years. QQ can be: 01 [1 year], 15 [1.5 years], 02,...
+    - [ZQQ] is optional. It indicates an automatic re-enrollment every QQ years. QQ can be: 10 [1.0 year], 15 [1.5 years], 20,...
     - YYYY is the year of maturity
     - MM is the month of maturity; starts at 01 [January]
     - DD is the day of maturity; starts at 01
