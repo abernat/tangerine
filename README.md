@@ -15,3 +15,8 @@ GIC is the same as above except it doesn't start with R
 
      
 No other account types are analyzed.
+
+# mentions
+- Orange icon courtesy of: [Flat Icon Repository](http://www.flaticon.com/search?word=orange)
+- Jquery
+- [DataTables.Net](https://datatables.net)
