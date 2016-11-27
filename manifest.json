@@ -1,11 +1,8 @@
 {
-  // Required
   "manifest_version": 2,
   "name": "Tangerine Account Organizer",
   "version": "1.0",
 
-  // Recommended
-  //"default_locale": "en",
   "description": "Organize GIC and RSP GIC accounts in Tangerine bank website",
 
   "icons": {
@@ -14,8 +11,6 @@
     "64": "assets/orange-64x64.png",
     "128": "assets/orange-128x128.png"
   },
-  // Pick one (or none)
-  //"browser_action": {...},
   "page_action": {
     "default_icon": {
       "16": "assets/orange-16x16.png",
@@ -24,10 +19,8 @@
       "128": "assets/orange-128x128.png"
     },
     "default_title": "Tangerine UI"
-    //"default_popup": "popup.html"        // optional
   },
 
-  // Optional
   "author": "Andrew Bernat",
 
   "content_scripts": [
@@ -35,7 +28,6 @@
       "matches": ["https://secure.tangerine.ca/*"],
       "css": ["css/jquery.dataTables-1.10.12.min.css", "css/tangerine.css"],
       "js": ["scripts/jquery-3.1.1.min.js", "scripts/jquery.dataTables-1.10.12.min.js", "scripts/lodash.core.js", "scripts/lodash.js", "scripts/tangerine.js"]
-      //"js": ["scripts/tangerine.js", "scripts/jquery.js"]
     }
   ],
 
